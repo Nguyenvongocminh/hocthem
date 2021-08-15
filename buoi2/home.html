@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="slide">
+            <div class="slide_con">
+                <img src="./img/1.jpg" alt=""  id="anhchinh">
+            </div>
+            <div class="btn">
+                <button id="anh1">anh 1</button>
+                <button id="anh2">anh 2</button>
+                <button id="anh3">anh 3</button>
+                <button id="anh4">anh 4</button>
+                <button id="anh5">anh 5</button>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <script>
+        var slide = document.getElementById('anhchinh');
+        var hinh1 = document.getElementById('anh1');
+        var hinh2 = document.getElementById('anh2');
+        var hinh3 = document.getElementById('anh3');
+        var hinh4 = document.getElementById('anh4');
+        var hinh5 = document.getElementById('anh5');
+
+        hinh1.onclick = function(){
+            slide.src = './img/6.jpg';
+        }
+        hinh2.onclick = function(){
+            slide.src = './img/2.jpg';
+        }
+        hinh3.onclick = function(){
+            slide.src = './img/3.jpg';
+        }
+        hinh4.onclick = function(){
+            slide.src = './img/4.jpg';
+        }
+        hinh5.onclick = function(){
+            slide.src = './img/5.jpg';
+        }
+       
+    </script>
+    
+</body>
+</html>

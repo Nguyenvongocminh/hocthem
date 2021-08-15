@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="note.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="container_anh">
+
+            <div class="anh">
+                <img src="./1.png" alt="">
+            </div>
+
+            <div class="txt">
+                <div class="txt_name">
+                    <p id="name">son tung</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sit dolorum porro blanditiis consequatur. Asperiores iste explicabo ullam in maxime ab atque quibusdam beatae tempora sunt maiores, mollitia minus quis.</p>
+                </div>
+
+                <div class="btn">
+                    <button id="btn2">
+                        click me
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- /////////////////////////// -->
+
+
+        <div class="hero">
+
+            <div class="find">
+                <div class="text" id="note"></div>
+                <div class="icon" id="icon"></div>
+                
+            </div>
+
+            <div class="find">
+                <div class="text"></div>
+                <div class="icon"></div>
+                
+            </div>
+
+            <div class="find">
+                <div class="text"></div>
+                <div class="icon"></div>
+                
+            </div>
+
+            <div class="find">
+                <div class="text"></div>
+                <div class="icon"></div>
+                
+            </div>
+        
+
+            
+        </div>
+
+
+    </div>
+
+
+
+    <!-- <script>
+        var name2 = document.getElementById('name');
+        var button = document.getElementById('btn2');
+
+        button.onclick = function () {
+            if (button.classList.toggle('name')) {
+                name2.innerHTML = 'xuc vat ';  
+                button.innerHTML = 'bop du'  ;
+            }else{
+                name2.innerHTML = 'thang lol hieeu ';
+                button.innerHTML = 'bop dit' ;
+            }
+        }
+
+
+    </script> -->
+
+    <script>
+        var iconclick = document.getElementById('icon');
+        var input = document.getElementById('note');
+
+        iconclick.onclick = function(){
+            if(input.classList.toggle('notejs')){
+                input.classList.add('notejs');
+            }else{
+                input.classList.remove('notejs');
+            }
+            
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
